@@ -1,0 +1,2308 @@
+{
+    "info": {
+        "name": "Carga Mixta de Equipos",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Obtener Equipo #1",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/1",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #2",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 2\", \"ciudad\": \"Ciudad 2\", \"fundacion\": 1902}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #3",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/3",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "3"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #4",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 4\", \"ciudad\": \"Ciudad 4\", \"fundacion\": 1904}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #5",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/5",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "5"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #6",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 6\", \"ciudad\": \"Ciudad 6\", \"fundacion\": 1906}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #7",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/7",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "7"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #8",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 8\", \"ciudad\": \"Ciudad 8\", \"fundacion\": 1908}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #9",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/9",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "9"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #10",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 10\", \"ciudad\": \"Ciudad 10\", \"fundacion\": 1910}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #11",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/11",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "11"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #12",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 12\", \"ciudad\": \"Ciudad 12\", \"fundacion\": 1912}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #13",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/13",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "13"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #14",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 14\", \"ciudad\": \"Ciudad 14\", \"fundacion\": 1914}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #15",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/15",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "15"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #16",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 16\", \"ciudad\": \"Ciudad 16\", \"fundacion\": 1916}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #17",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/17",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "17"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #18",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 18\", \"ciudad\": \"Ciudad 18\", \"fundacion\": 1918}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #19",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/19",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "19"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #20",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 20\", \"ciudad\": \"Ciudad 20\", \"fundacion\": 1920}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #21",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/21",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "21"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #22",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 22\", \"ciudad\": \"Ciudad 22\", \"fundacion\": 1922}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #23",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/23",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "23"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #24",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 24\", \"ciudad\": \"Ciudad 24\", \"fundacion\": 1924}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #25",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/25",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "25"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #26",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 26\", \"ciudad\": \"Ciudad 26\", \"fundacion\": 1926}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #27",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/27",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "27"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #28",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 28\", \"ciudad\": \"Ciudad 28\", \"fundacion\": 1928}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #29",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/29",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "29"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #30",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 30\", \"ciudad\": \"Ciudad 30\", \"fundacion\": 1930}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #31",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/31",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "31"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #32",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 32\", \"ciudad\": \"Ciudad 32\", \"fundacion\": 1932}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #33",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/33",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "33"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #34",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 34\", \"ciudad\": \"Ciudad 34\", \"fundacion\": 1934}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #35",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/35",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "35"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #36",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 36\", \"ciudad\": \"Ciudad 36\", \"fundacion\": 1936}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #37",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/37",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "37"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #38",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 38\", \"ciudad\": \"Ciudad 38\", \"fundacion\": 1938}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #39",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/39",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "39"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #40",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 40\", \"ciudad\": \"Ciudad 40\", \"fundacion\": 1940}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #41",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/41",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "41"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #42",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 42\", \"ciudad\": \"Ciudad 42\", \"fundacion\": 1942}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #43",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/43",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "43"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #44",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 44\", \"ciudad\": \"Ciudad 44\", \"fundacion\": 1944}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #45",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/45",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "45"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #46",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 46\", \"ciudad\": \"Ciudad 46\", \"fundacion\": 1946}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #47",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/47",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "47"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #48",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 48\", \"ciudad\": \"Ciudad 48\", \"fundacion\": 1948}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #49",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/49",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "49"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #50",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 50\", \"ciudad\": \"Ciudad 50\", \"fundacion\": 1950}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #51",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/51",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "51"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #52",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 52\", \"ciudad\": \"Ciudad 52\", \"fundacion\": 1952}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #53",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/53",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "53"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #54",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 54\", \"ciudad\": \"Ciudad 54\", \"fundacion\": 1954}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #55",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/55",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "55"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #56",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 56\", \"ciudad\": \"Ciudad 56\", \"fundacion\": 1956}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #57",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/57",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "57"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #58",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 58\", \"ciudad\": \"Ciudad 58\", \"fundacion\": 1958}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #59",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/59",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "59"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #60",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 60\", \"ciudad\": \"Ciudad 60\", \"fundacion\": 1960}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #61",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/61",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "61"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #62",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 62\", \"ciudad\": \"Ciudad 62\", \"fundacion\": 1962}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #63",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/63",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "63"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #64",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 64\", \"ciudad\": \"Ciudad 64\", \"fundacion\": 1964}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #65",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/65",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "65"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #66",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 66\", \"ciudad\": \"Ciudad 66\", \"fundacion\": 1966}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #67",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/67",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "67"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #68",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 68\", \"ciudad\": \"Ciudad 68\", \"fundacion\": 1968}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #69",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/69",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "69"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #70",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 70\", \"ciudad\": \"Ciudad 70\", \"fundacion\": 1970}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #71",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/71",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "71"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #72",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 72\", \"ciudad\": \"Ciudad 72\", \"fundacion\": 1972}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #73",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/73",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "73"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #74",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 74\", \"ciudad\": \"Ciudad 74\", \"fundacion\": 1974}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #75",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/75",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "75"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #76",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 76\", \"ciudad\": \"Ciudad 76\", \"fundacion\": 1976}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #77",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/77",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "77"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #78",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 78\", \"ciudad\": \"Ciudad 78\", \"fundacion\": 1978}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #79",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/79",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "79"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #80",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 80\", \"ciudad\": \"Ciudad 80\", \"fundacion\": 1980}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #81",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/81",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "81"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #82",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 82\", \"ciudad\": \"Ciudad 82\", \"fundacion\": 1982}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #83",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/83",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "83"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #84",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 84\", \"ciudad\": \"Ciudad 84\", \"fundacion\": 1984}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #85",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/85",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "85"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #86",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 86\", \"ciudad\": \"Ciudad 86\", \"fundacion\": 1986}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #87",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/87",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "87"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #88",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 88\", \"ciudad\": \"Ciudad 88\", \"fundacion\": 1988}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #89",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/89",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "89"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #90",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 90\", \"ciudad\": \"Ciudad 90\", \"fundacion\": 1990}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #91",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/91",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "91"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #92",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 92\", \"ciudad\": \"Ciudad 92\", \"fundacion\": 1992}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #93",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/93",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "93"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #94",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 94\", \"ciudad\": \"Ciudad 94\", \"fundacion\": 1994}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #95",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/95",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "95"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #96",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 96\", \"ciudad\": \"Ciudad 96\", \"fundacion\": 1996}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #97",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/97",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "97"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #98",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 98\", \"ciudad\": \"Ciudad 98\", \"fundacion\": 1998}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Obtener Equipo #99",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos/99",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos",
+                        "99"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Crear Equipo #100",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"nombre\": \"Equipo 100\", \"ciudad\": \"Ciudad 100\", \"fundacion\": 2000}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/equipos",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "equipos"
+                    ]
+                }
+            }
+        }
+    ]
+}
